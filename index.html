@@ -112,8 +112,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Video anomaly detection aims to identify abnormal events in video surveillance, which is an important task
-            in computer vision...
+            Anomaly detection is to identify abnormal events against normal ones within surveillance videos mainly collected in ground-based settings. Recently, the need for drone data processing is rapidly growing as drones find new applications. However, as most aerial videos collected by flying drones contain moving backgrounds and others, it is necessary to deal with their spatio-temporal features in detecting anomalies. This study presents a transformer-based video anomaly detection method whereby we investigate a challenging aerial dataset and three benchmark ground-based datasets. The encoder of our U-net has a four-stage pyramid transformer structure, and each stage has a link to a corresponding spatio-temporal transformer stage. Then, this transformer produces hierarchical feature maps that are conveyed to the decoder as skip connections. Extensive evaluations including several ablation studies suggest that this network outperforms the state-of-the-art on Drone-anomaly dataset and three benchmark datasets. We expect the proposed transformer for U-net can find diverse applications in the video processing area. Code and model are available at <a href="https://vt-le.github.io/HSTforU/">https://vt-le.github.io/HSTforU/</a>.
           </p>
         </div>
       </div>
@@ -183,17 +182,19 @@
         </div>
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
-            <img src="static/images/highway/000.png"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="static/videos/highway.avi"
+                    type="video/avi">
+          </video>
+            <p>Highway</p>
           </div>
 
           <div class="column is-3 has-text-centered">
-            <img src="static/images/highway/200.png"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="static/videos/bike.avi"
+                    type="video/avi">
+          </video>
+            <p class="is-bold">Bike roundabout</p>
           </div>
         </div>
         <br/>
