@@ -138,18 +138,13 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Predicted frame and its prediction error</h2>
+        <h3 class="title is-3">Ground-based Videos</h3>
+        <h4 class="title is-4">ShanghaiTech Dataset</h4>
         <p>
             The future frame (middle column) and prediction error (right column) are generated corresponding with the input frame.
         </p>
         <br>
         <!-- Interpolating. -->
-        <h3 class="title is-4">Surveillance Video</h3>
-        <div class="content has-text-justified">
-          <p>
-            ShanghaiTech Dataset.
-          </p>
-        </div>
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
             <img src="static/images/000.png"
@@ -172,37 +167,58 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
-        <!--/ Interpolating. -->
-        <h3 class="title is-4">Aerial Video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Drone-Anomaly Dataset.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="static/videos/highway.avi"
-                    type="video/avi">
-          </video>
-            <p>Highway</p>
-          </div>
-
-          <div class="column is-3 has-text-centered">
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="static/videos/bike.avi"
-                    type="video/avi">
-          </video>
-            <p class="is-bold">Bike roundabout</p>
-          </div>
-        </div>
-        <br/>
       </div>
     </div>
     <!--/ Animation. -->
+  </div>
+</section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h3 class="title is-3">Aerial Videos</h3>
+    <div class="columns is-centered">
 
+      <!-- Visual Effects. -->
+      <div class="column">
+
+        <div class="content">
+          <h4 class="title is-4">Highway</h4>
+          <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/highway.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h2 class="title is-4">Bike</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p>
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/bike.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
     <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -240,6 +256,8 @@
 
   </div>
 </section>
+
+
 
 <section class="section">
   <div class="container is-max-desktop">
