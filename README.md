@@ -3,7 +3,7 @@ This is the code for "HSTforU: Anomaly Detection in Aerial and Ground-based Vide
 
  * [Project Page](https://vt-le.github.io/HSTforU)
  * [Paper](https://arxiv.org)
- * [Video](https://www.youtube.com)
+ * [Video](https://youtu.be/s5wmFbDnBCI)
  
 This codebase is implemented using [PyTorch](https://pytorch.org/).
 
