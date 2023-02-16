@@ -1,12 +1,12 @@
 window.HELP_IMPROVE_VIDEOJS = false;
 
-var INTERP_BASE = "static/images/frames";
-var NUM_INTERP_FRAMES = 246;
+var INTERP_BASE = "static/images/avenue";
+var NUM_INTERP_FRAMES = 241;
 
 var interp_images = [];
 function preloadInterpolationImages() {
   for (var i = 0; i < (NUM_INTERP_FRAMES); i++) {
-    var path = INTERP_BASE + '/' + String(i+80).padStart(3, '0') + '.png';
+    var path = INTERP_BASE + '/' + String(i+560).padStart(3, '0') + '.png';
     interp_images[i] = new Image();
     interp_images[i].src = path;
   }
@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     var options = {
 			slidesToScroll: 1,
-			slidesToShow: 3,
+			slidesToShow: 1,
 			loop: true,
 			infinite: true,
 			autoplay: false,

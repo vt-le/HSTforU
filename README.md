@@ -7,6 +7,7 @@ This is the code for "HSTforU: Anomaly Detection in Aerial and Ground-based Vide
  
 This codebase is implemented using [PyTorch](https://pytorch.org/).
 
+![Code coming soon](static/images/code_coming_soon.png "Code coming soon")
 
 ## Setup
 The code can be run under any environment with Python 3.7 and above.
@@ -21,11 +22,12 @@ Install the required packages:
 
 Download `weights`, and put them in a folder `pretrained/`
 
-| Dataset      | Link                                                                                   |
-|--------------|----------------------------------------------------------------------------------------|
-| UCSD Ped2    | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://)  |
-| CUHK Avenue  | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
+| Dataset | Link                                                                                   |
+|--|----------------------------------------------------------------------------------------|
+| UCSD Ped2 | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://)  |
+| CUHK Avenue | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
 | ShanghaiTech | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
+| Drone-Anomaly | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
  
 
 After preparing a dataset, you can train a model by running:
