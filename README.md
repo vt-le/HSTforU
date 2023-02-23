@@ -67,7 +67,7 @@ video. An `frame_id` can be any string, but typically it is some alphanumeric st
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@article{le2023pystformer
+@article{le2023hstforu
   author    = {Le, Viet-Tuan and Jin, Hulin and Kim, Yong-Guk},
   title     = {HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net},
   journal   = {IEEE},
