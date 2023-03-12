@@ -75,3 +75,6 @@ If you find our work useful, please consider citing:
   publisher = {IEEE}
 }
 ```
+
+## Related Work
+> **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
