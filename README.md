@@ -22,12 +22,12 @@ Install the required packages:
 
 Download `weights`, and put them in a folder `pretrained/`
 
-| Dataset | Link                                                                                   |
-|--|----------------------------------------------------------------------------------------|
-| UCSD Ped2 | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://)  |
-| CUHK Avenue | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
-| ShanghaiTech | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
-| Drone-Anomaly | [![Google drive](https://colab.research.google.com/assets/colab-badge.svg)](https://) |
+| Dataset | Link                                                                                  |
+|--|---------------------------------------------------------------------------------------|
+| UCSD Ped2 | [![Google drive](https://badgen.net/badge/Google/drive/red?icon=chrome)](http://www.svcl.ucsd.edu/projects/anomaly/dataset.html) |
+| CUHK Avenue | [![Google drive](https://badgen.net/badge/Google/drive/red?icon=chrome)](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) |
+| ShanghaiTech | [![Google drive](https://badgen.net/badge/Google/drive/red?icon=chrome)](https://svip-lab.github.io/dataset/campus_dataset.html) |
+| Drone-Anomaly | [![Google drive](https://badgen.net/badge/Google/drive/red?icon=chrome)](https://)    |
  
 
 After preparing a dataset, you can train a model by running:
