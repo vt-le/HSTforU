@@ -7,7 +7,7 @@ This is the code for "HSTforU: Anomaly Detection in Aerial and Ground-based Vide
  
 This codebase is implemented using [PyTorch](https://pytorch.org/).
 
-![Code coming soon](static/images/code_coming_soon.png "Code coming soon")
+<img src="static/images/code_coming_soon.png" alt="code" width=50% height=50%>
 
 ## Setup
 The code can be run under any environment with Python 3.7 and above.
@@ -70,9 +70,9 @@ If you find our work useful, please consider citing:
 @article{le2023hstforu
   author    = {Le, Viet-Tuan and Jin, Hulin and Kim, Yong-Guk},
   title     = {HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net},
-  journal   = {IEEE},
+  journal   = {XXX},
   year      = {2023},
-  publisher = {IEEE}
+  publisher = {XXX}
 }
 ```
 
