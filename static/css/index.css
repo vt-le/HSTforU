@@ -5,7 +5,7 @@ body {
 
 .footer .icon-link {
   width: fit-content;
-  block-size: fit-content;
+  height: fit-content;
     font-size: 25px;
     color: #000;
 }
