@@ -6,7 +6,9 @@ This is the code for **[HSTforU: Anomaly Detection in Aerial and Ground-based Vi
 ## Related Work
 > **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
 
-
+<a href="static/img/shanghai/shanghai_curve_full.gif" target="_blank">
+    <image style="border: 2px solid rgb(201, 196, 196);" src="static/images/03_0031.gif" width="100%">
+</a>
 
 ## Updates
 * [8/19/2023] Code of [HSTforU](https://vt-le.github.io/HSTforU/) is released (with password). We will remove the password after this paper is accepted.
