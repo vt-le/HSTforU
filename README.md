@@ -86,7 +86,7 @@ A dataset is a directory with the following structure:
       ├── 01_0015.npy
       └── ...
 
-  droneanomaly
+  drone
   ├──bike
   │  ├──training
   │  │  └── frames
@@ -142,7 +142,7 @@ To evaluate a pretrained `HSTforU` on a dataset, run:
 ```bash
 python test.py \
     --cfg config/scripts/ped2/ped2_pvt2_hst.yaml \
-    --model-file output/HSTforU/ped2_pvt2_hst/ped2/ckpt_ped2.pth
+    --model-file output/HSTforU/ped2_pvt2_hst/ckpt_ped2.pth
 ```
 <!-- 
 ## Training from scratch
