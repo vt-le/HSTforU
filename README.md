@@ -171,11 +171,9 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@article{LI2024121093,
+@article{hstforu,
 title = {HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net},
 author = {Le, Viet-Tuan and Jin, Hulin and Kim, Yong-Guk},
-journal = {Expert Systems with Applications},
-year = {2023},
 }
 ```
 
