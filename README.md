@@ -180,4 +180,4 @@ author = {Le, Viet-Tuan and Jin, Hulin and Kim, Yong-Guk},
 ## Contact
 For any question, please file an [issue](https://github.com/vt-le/HSTforU/issues) or contact:
 
-    Viet-Tuan Le: tuanlv@sju.ac.kr or vtle0011@gmail.com
+    Viet-Tuan Le: vt-le@outlook.com
