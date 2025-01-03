@@ -1,7 +1,7 @@
 # HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net
 This is the code for **[HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net]()** [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvt-le%2FHSTforU&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com).
 
-### [Project](https://vt-le.github.io/HSTforU) | [Video](https://youtu.be/s5wmFbDnBCI) | [Paper (coming soon...)](#)
+### [Project](https://vt-le.github.io/HSTforU) | [Video](https://youtu.be/s5wmFbDnBCI) | [Paper](https://link.springer.com/article/10.1007/s10489-024-06042-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250103&utm_content=10.1007%2Fs10489-024-06042-4)
  
 ## Related Works
 > **MoGuP**: See [MoGuP:Motion-guided Prediction for Video Anomaly Detection](https://moguprediction.github.io/).
@@ -171,9 +171,21 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@article{hstforu,
-title = {HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net},
-author = {Le, Viet-Tuan and Jin, Hulin and Kim, Yong-Guk},
+﻿@Article{Le2025,
+author={Le, Viet-Tuan
+and Jin, Hulin
+and Kim, Yong-Guk},
+title={HSTforU: anomaly detection in aerial and ground-based videos with hierarchical spatio-temporal transformer for U-net},
+journal={Applied Intelligence},
+year={2025},
+month={Jan},
+day={03},
+volume={55},
+number={4},
+pages={261},
+issn={1573-7497},
+doi={10.1007/s10489-024-06042-4},
+url={https://doi.org/10.1007/s10489-024-06042-4}
 }
 ```
 
