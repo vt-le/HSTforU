@@ -171,7 +171,7 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-﻿@Article{Le2025,
+﻿@Article{e2025hstforu,
 author={Le, Viet-Tuan
 and Jin, Hulin
 and Kim, Yong-Guk},
