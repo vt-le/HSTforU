@@ -4,7 +4,7 @@ This is the code for **[HSTforU: Anomaly Detection in Aerial and Ground-based Vi
 ### [Project](https://vt-le.github.io/HSTforU) | [Video](https://youtu.be/s5wmFbDnBCI) | [Paper](https://link.springer.com/article/10.1007/s10489-024-06042-4?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250103&utm_content=10.1007%2Fs10489-024-06042-4)
  
 ## Related Works
-> **MoGuP**: See [MoGuP:Motion-guided Prediction for Video Anomaly Detection](https://moguprediction.github.io/).
+> **CrossAnomaly**: See [CrossAnomaly: A Contextual Cross-Modality Framework for Video Anomaly Detection](https://github.com/vt-le/CrossAnomaly).
 
 > **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
 
