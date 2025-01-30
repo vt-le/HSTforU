@@ -120,6 +120,12 @@ A dataset is a directory with the following structure:
   
   ```
 
+## Training
+To train `HSTforU` on a dataset, run:
+```bash
+ python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use> --master_port 12345  train.py --cfg <config-file>
+```  
+
 ## Evaluation
 Please first download the pre-trained model
 

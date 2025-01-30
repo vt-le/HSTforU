@@ -1,0 +1,23 @@
+#####################
+### Ped2  Dataset ###
+#####################
+### python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345  train.py --cfg configs/scripts/ped2.yaml
+
+GPUS: (0,1,2,3,4,5,6,7,)
+PRINT_FREQ: 10
+
+DATA:
+  BATCH_SIZE: 32
+  DATASET: 'ped2'
+  FRAME_STEP: 1
+  MIN_FRAMES: 100
+  NUM_WORKERS: 0
+  ALBUMENTATIONS: False
+
+MODEL:
+  NAME: HSTforU
+  PRETRAINED: '../../datasets/seg_weights/pvt_v2_b1.pth'
+
+TRAIN:
+  EPOCHS: 200
+  WARMUP_EPOCHS: 10

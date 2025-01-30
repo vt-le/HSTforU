@@ -1,0 +1,30 @@
+#############################
+### ShanghaiTech  Dataset ###
+############################
+
+GPUS: (0,1,2,3,4,5,6,7,)
+PRINT_FREQ: 50
+SAVE_FREQ: 2
+
+DATA:
+  BATCH_SIZE: 32
+  DATASET: 'shanghaitech'
+  FRAME_STEP: 6
+  MIN_FRAMES: 700
+  NUM_WORKERS: 8
+  ALBUMENTATIONS: False
+
+MODEL:
+  NAME: HSTforU
+  PRETRAINED: '../../datasets/seg_weights/pvt_v2_b2.pth'
+
+TRAIN:
+  EPOCHS: 100
+  WARMUP_EPOCHS: 1
+  BASE_LR: 4e-4
+  WARMUP_LR: 4e-7
+  MIN_LR: 4e-6
+
+AUG:
+  COLOR_JITTER: 0.0
+
