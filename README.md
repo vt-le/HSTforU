@@ -13,7 +13,7 @@ This is the code for **[HSTforU: Anomaly Detection in Aerial and Ground-based Vi
 </a>
 
 ## Updates
-* [8/19/2023] Code of [HSTforU](https://vt-le.github.io/HSTforU/) is released (with password). We will remove the password after this paper is accepted.
+* [8/19/2023] Code of [HSTforU](https://vt-le.github.io/HSTforU/) is released.
 
 ## Setup
 The code can be run under any environment with Python 3.7 and above.
